@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\application\TacApp.cpp" />
+    <ClCompile Include="src\window\TacWindow.cpp" />
+    <ClCompile Include="src\window\TacWindowsWindow.cpp" />
+    <ClCompile Include="src\util\TacException.cpp" />
+    <ClCompile Include="src\util\TacWindowsError.cpp" />
+    <ClCompile Include="src\graphics\graphics.cpp" />
+    <ClCompile Include="src\util\TacDirectXError.cpp" />
+    <ClCompile Include="src\systems\TacSystem.cpp" />
+    <ClCompile Include="src\systems\TacWindowSys.cpp" />
+    <ClCompile Include="src\systems\TacGraphicsSys.cpp" />
+    <ClCompile Include="src\graphics\vertex.cpp" />
+    <ClCompile Include="src\application\TacResource.cpp" />
+    <ClCompile Include="src\graphics\shader.cpp" />
+    <ClCompile Include="src\util\TacFileReader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resources\Resource.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\myicon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resources\resource.h" />
+    <ClInclude Include="src\application\TacApp.h" />
+    <ClInclude Include="src\window\TacWindow.h" />
+    <ClInclude Include="src\window\TacWindowsWindow.h" />
+    <ClInclude Include="src\util\TacException.h" />
+    <ClInclude Include="src\util\TacWindowsError.h" />
+    <ClInclude Include="src\graphics\graphics.h" />
+    <ClInclude Include="src\util\TacDirectXError.h" />
+    <ClInclude Include="src\util\TacCallback.h" />
+    <ClInclude Include="src\systems\TacSystem.h" />
+    <ClInclude Include="src\systems\TacWindowSys.h" />
+    <ClInclude Include="src\systems\TacGraphicsSys.h" />
+    <ClInclude Include="src\graphics\vertex.h" />
+    <ClInclude Include="src\application\TacResource.h" />
+    <ClInclude Include="src\graphics\shader.h" />
+    <ClInclude Include="src\util\TacFileReader.h" />
+  </ItemGroup>
+</Project>
