@@ -2,9 +2,3 @@
 
 ![dx refresher image](dxrefresher.png)
 
-
-
-
-
-
-
